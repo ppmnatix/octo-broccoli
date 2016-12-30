@@ -22,8 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="clusterrepresentation.py" />
+    <Compile Include="clustersimplerepresentation.py" />
     <Compile Include="depth.py" />
     <Compile Include="indexing.py" />
+    <Compile Include="knnmutual.py" />
     <Compile Include="localrepresentation.py" />
     <Compile Include="octoBroccoli.py" />
     <Compile Include="phij.py" />
